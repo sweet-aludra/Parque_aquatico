@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Parque Aquatico&copy</title>
+    <link rel="icon" type="image" href="img/Logo00.png"> <!-- icon do titulo -->
+
+    <link rel="stylesheet" 
+	      type="text/css"  
+		  href="CSS/login.css"> <!-- acesso a parte css (parque.css)-->
+    
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+
+    <section>
+        <article>
+    <div id="login">
+        <div class="img-0"><img src="img/Logo00.png"></div><br>
+
+        
+            <div class="caixa-1">Email</div>
+            <div><input type="email" placeholder="enter email..." required class="quadro-1"></div>
+        <br>
+            <div class="p">senha</div>
+            <div class="caixa-2">
+                <input type="password" id="password" placeholder="password">
+                <button id="btn"><img src="img/olho.png"></button>
+            </div>
+<br>
+            <button type="submit" class="button-1"><a href="parque aquatico.html">Login</a></button>
+    </div>
+
+        </article>
+    </section>
+
+    <aside></aside>
+
+    <footer></footer>
+
+    <script type="text/javascript">
+
+        var btn = document.getElementById('btn')
+
+        btn.addEventListener('click', function(){
+
+            let password = document.getElementById('password')
+
+            if(password.type == "password"){
+                password.type = "text"
+                this.style.opacity = "1"
+            }else {
+                password.type = "password"
+                this.style.opacity = ".4"
+            }
+        })
+
+    </script>
+
+</body>
+</html>

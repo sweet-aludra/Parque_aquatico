@@ -1,0 +1,80 @@
+:root {
+    --cor1: #41384e;
+    --cor2: #725a7a;
+    --cor3: #776483;
+    --cor4: #b8aac3;
+    --cor5: #e99e75;
+    --fundo: #fdfff2;
+}/* Paleta de cor (variaveis)*/
+
+* {
+    margin: 0px;
+} /* codigo geral */
+
+header {
+    background: #370d35;
+    display: flex;
+    position: fixed;
+    width: 1495px;
+    justify-content: space-between;
+} /* codigo de todo header */
+
+.tartuga {
+    background: black;
+    border-radius: 20%;
+    margin: 10px;
+    margin-left: 30px;
+} /* codigo da logo->menu */   
+
+#menu {
+    font-size: 30px;
+    font-family: Garamond;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    padding: 30px;
+    color: #00FF7F;
+} /* codigo da lista->menu */
+
+/*.bolinhas {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center
+    align-items: center;
+    position: absolute;
+}*/
+
+#sesao {
+    background-color: #7093DB;
+} /* codigo do segundo menu dps da img */
+
+.titulo-2 {
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #32CD32;
+} /* codigo do titulo */
+
+.menu-2 {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 5rem;
+    padding: 30px;
+} /* codigo da lista->menu */
+
+li {
+    text-decoration: none;
+    color: #ffffff;
+} /* codigo dos links-><a> */
+
+footer {
+    background-color: #32CD32;
+}

@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'horizon';
+    src: url('../fonte/AntonSC-Regular.ttf');
+}/* configuraçao da fonte da logo*/
+
+:root {
+    --cor1: #41384e;
+    --cor2: #725a7a;
+    --cor3: #776483;
+    --cor4: #b8aac3;
+    --cor5: #e99e75;
+    --fundo: #fdfff2;
+}/* Paleta de cor (variaveis)*/
+
+body {
+    background-color: #ffcaff;
+}
+
+a {
+    text-decoration: none;
+    color: #370d35;
+}
+
+#login {
+    background: #370d35;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    padding: 10px 0px;
+    height: 550px;
+    gap: 5px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.img-0 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.caixa-1 {
+    color: #00FF7F;
+    font-size: 25px;
+
+}
+
+.quadro-1 {
+    height: 25px;
+    background: #ffcaff;
+}
+
+#password {
+    height: 25px;
+    margin-right: 5px;
+    background: #ffcaff;
+}
+
+.p {
+    color: #00FF7F;
+    font-size: 25px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+   
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: -45px;
+    background-color: transparent;
+    border: none;
+    transition: .2s;
+    opacity: .2px;
+
+}
+
+.button-1 {
+    height: 48px;
+    width: 150px;
+    background: #00FF7F;
+    border: 0;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 20px;
+    color:antiquewhite;
+    margin-left: 10px;
+}
