@@ -8,10 +8,17 @@
 }/* Paleta de cor (variaveis)*/
 
 * {
+    margin: 0px;
 } /* codigo geral */
 
 header {
+    display: flex;
+    flex-direction: row;
 } /* codigo de todo header */
 
 footer {
+}
+
+#menu{
+    background-color: var(--cor1);
 }
