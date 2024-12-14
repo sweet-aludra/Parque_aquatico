@@ -4,6 +4,7 @@
     --cor3: #776483;
     --cor4: #b8aac3;
     --cor5: #e99e75;
+    --cor6: #c9d3cf;
     --fundo: #fdfff2;
 }/* Paleta de cor (variaveis)*/
 
@@ -14,11 +15,18 @@
 header {
     display: flex;
     flex-direction: row;
+    height: 40rem;
+    width: auto;
+    border-bottom: 40px solid;
+    border-image: linear-gradient(90deg, var(--cor4), var(--cor3), var(--cor1)) 1;
 } /* codigo de todo header */
 
 footer {
 }
 
 #menu{
-    background-color: var(--cor1);
+    background-color: black;
+}
+#menu nav{
+    color: var(--cor5);
 }
